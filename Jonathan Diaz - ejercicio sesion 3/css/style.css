@@ -1,0 +1,46 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr, td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+#rojo{
+    background-color: red;
+}
+#verde{
+    background-color: green;
+}
+#gris{
+    background-color: grey;
+}
+#cafe{
+    background-color: brown;
+}
+#azul{
+    background-color: blue;
+}
+#violeta{
+    background-color: violet;
+}
+#rosado{
+    background-color: pink;
+}
+#amarillo{
+    background-color: yellow;
+}
+#turquesa{
+    background-color: cyan;
+}
+#naranjo{
+    background-color: orange;
+}
+#purpura{
+    background-color: purple;
+}
+#negro{
+    background-color: black;
+    color: white;
+}

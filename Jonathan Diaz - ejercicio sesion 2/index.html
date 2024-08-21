@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <hr>
+        <form action="html/confirmacion.html" method="get">
+            <label for="nombre">NOMBRE:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese Su Nombre" required>
+            <label for="direccion">DIRECCION: </label>
+            <input type="text" name="direccion" id="direccion" placeholder="Ingrese su direccion" required>
+            <label for="especialidad">ESPECIALIDAD</label>
+            <select name="especialidad" id="especialidad">
+                <option value="" disabled selected hidden>Seleccione una opción</option>
+                <option value="medicinaInterna">MEDICINA INTERNA</option>
+                <option value="medicinaGeneral">MEDICINA GENERAL</option>
+                <option value="traumatologia">TRAUMATOLOGIA</option>
+                <option value="nutricionista">NUTRICIONISTA</option>
+            </select><br>
+            <label for="fecha">FECHA</label>
+            <input type="date" name="date" id="date" required>
+            <label for="hora">HORA</label>
+            <input type="time" name="hora" id="hora" required>
+            <label for="email">CORREO</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese un correo" required>
+            <button>CONFIRMAR</button>
+        </form>
+    </div>
+</body>
+
+</html>

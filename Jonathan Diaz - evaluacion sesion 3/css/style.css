@@ -1,0 +1,50 @@
+body{
+    background-color: #f0f0f1;
+    font-family: verdana;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px black;
+}
+.button-container{
+    text-align: center;
+}
+.primary-btn{
+    background-color: #3498db;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-right: 20px;
+}
+.sencondary-btn{
+    background-color: #2ecc71;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-right: 20px;
+}
+.success-btn{
+    background-color: #27ae60;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+    margin-right: 20px;
+}
+.danger-btn{
+    background-color: #e74c3c;
+    box-shadow: 0 0 10 rgba(0, 0, 0, 0.1);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px;
+}
+.text-container{
+    text-align: center;
+    color: #fff;
+}
