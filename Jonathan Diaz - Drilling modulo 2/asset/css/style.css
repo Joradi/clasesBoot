@@ -14,9 +14,14 @@ h1, h2{
     text-shadow: 2px 2px #000;
 }
 
+.card-img-top{
+    height: 200px;
+    object-fit: cover;
+}
 .card{
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .btn-primary{
